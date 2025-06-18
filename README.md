@@ -19,7 +19,7 @@ It started as a learning exercise and eventually became a reusable foundation fo
 
 ---
 
-## 🛠 Project Features
+##  Project Features
 
 - Modular ECU layer with separate drivers for each component
 - Application logic to demonstrate usage of drivers
