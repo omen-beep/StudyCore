@@ -32,7 +32,7 @@ It started as a learning exercise and eventually became a reusable foundation fo
 
 ### Requirements
 
-- MPLAB X IDE (recommended version X.X or later)
+- MPLAB X IDE
 - Microchip XC8 Compiler
 - PIC microcontroller (adjust the code to your target chip if needed)
 
