@@ -1,0 +1,76 @@
+#include "ECU_LAYER_INIT.h"
+
+/*LCD_4bit_t LCD_4bit = {
+    .data_pins[0].direction = OUTPUT,
+    .data_pins[1].direction = OUTPUT,
+    .data_pins[2].direction = OUTPUT,
+    .data_pins[3].direction = OUTPUT,
+    .data_pins[0].logic = LOW,
+    .data_pins[1].logic = LOW,
+    .data_pins[2].logic = LOW,
+    .data_pins[3].logic = LOW,
+    .data_pins[0].pin = pin2,
+    .data_pins[1].pin = pin3,
+    .data_pins[2].pin = pin4,
+    .data_pins[3].pin = pin5,
+    .data_pins[0].port = PORTC_INDEX,
+    .data_pins[1].port = PORTC_INDEX,
+    .data_pins[2].port = PORTC_INDEX,
+    .data_pins[3].port = PORTC_INDEX,
+    .en_pin.direction = OUTPUT,
+    .en_pin.logic = LOW,
+    .en_pin.pin = pin1,
+    .en_pin.port = PORTC_INDEX,
+    .rs_pin.direction = OUTPUT,
+    .rs_pin.logic = LOW,
+    .rs_pin.pin = pin0,
+    .rs_pin.port = PORTC_INDEX
+};
+
+LCD_8bit_t LCD_8bit = {
+    .data_pins[0].direction = OUTPUT,
+    .data_pins[1].direction = OUTPUT,
+    .data_pins[2].direction = OUTPUT,
+    .data_pins[3].direction = OUTPUT,
+    .data_pins[4].direction = OUTPUT,
+    .data_pins[5].direction = OUTPUT,
+    .data_pins[6].direction = OUTPUT,
+    .data_pins[7].direction = OUTPUT,
+    .data_pins[0].logic = LOW,
+    .data_pins[1].logic = LOW,
+    .data_pins[2].logic = LOW,
+    .data_pins[3].logic = LOW,
+    .data_pins[4].logic = LOW,
+    .data_pins[5].logic = LOW,
+    .data_pins[6].logic = LOW,
+    .data_pins[7].logic = LOW,
+    .data_pins[0].pin = pin0,
+    .data_pins[1].pin = pin1,
+    .data_pins[2].pin = pin2,
+    .data_pins[3].pin = pin3,
+    .data_pins[4].pin = pin4,
+    .data_pins[5].pin = pin5,
+    .data_pins[6].pin = pin6,
+    .data_pins[7].pin = pin7,
+    .data_pins[0].port = PORTD_INDEX,
+    .data_pins[1].port = PORTD_INDEX,
+    .data_pins[2].port = PORTD_INDEX,
+    .data_pins[3].port = PORTD_INDEX,
+    .data_pins[4].port = PORTD_INDEX,
+    .data_pins[5].port = PORTD_INDEX,
+    .data_pins[6].port = PORTD_INDEX,
+    .data_pins[7].port = PORTD_INDEX,
+    .en_pin.direction = OUTPUT,
+    .en_pin.logic = LOW,
+    .en_pin.pin = pin7,
+    .en_pin.port = PORTC_INDEX,
+    .rs_pin.direction = OUTPUT,
+    .rs_pin.logic = LOW,
+    .rs_pin.pin = pin6,
+    .rs_pin.port = PORTC_INDEX
+};*/
+void ECU_Layer_Init(void){
+    STD_ReturnType ret = E_NOK;
+   // ret = LCD_Init_4bit(&LCD_4bit);
+   // ret = LCD_Init_8bit(&LCD_8bit);
+}

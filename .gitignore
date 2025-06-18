@@ -1,0 +1,10 @@
+# Ignore build artifacts
+/build/
+*.p1
+*.d
+*.i
+*.o
+*.elf
+*.hex
+*.map
+.DS_Store
