@@ -49,11 +49,17 @@ It started as a learning exercise and eventually became a reusable foundation fo
 
 StudyCore/
 │
+
 ├── ECU_Layer/ # Drivers for components
+
 ├── application.c # Main application logic
+
 ├── application.h
+
 ├── Makefile
+
 ├── .gitignore
+
 └── README.md # You're here!
 
 ---
